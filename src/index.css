@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +7,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Muli"
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #282c34;
+}
+
+.text-white {
+  color: white;
+}
+
+.h1{
+    font-weight: 300 !important;
+}
+
+/* Jumbotron */
+.jumbotron{
+  background: url('https://images.pexels.com/photos/38326/pexels-photo-38326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  height:60vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead{
+  font-size: 24px;
+}
+
+button{
+  outline: none !important;
 }
